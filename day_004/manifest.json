@@ -1,0 +1,13 @@
+{
+  "filename_extension": ".py",
+  "tab_size": 4,
+  "display_name": "Python, py.test",
+  "image_name": "cyberdojofoundation/python_pytest",
+  "runner_choice": "stateless",
+  "visible_filenames": [
+    "anagram.py",
+    "cyber-dojo.sh",
+    "instructions",
+    "test_anagram.py"
+  ]
+}
