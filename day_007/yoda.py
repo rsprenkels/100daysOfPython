@@ -1,9 +1,16 @@
 import itertools
 
 class Yoda:
+
+    def printres(self, theRes):
+        nr = ''.join(theRes[::-1])
+        if (nr == ''):
+            print('YODA')
+        else:
+            print(int(nr))
+
     def run(self):
-        first = input() 
-        second = input()
+        first, second  = input(), input()
         N = []
         M = []
         for pair in itertools.zip_longest(list(first)[::-1],list(second)[::-1], fillvalue='0'):
@@ -15,18 +22,9 @@ class Yoda:
             else:
                 N.append(a)
                 M.append(b)
-        firstNumber = ''.join(N[::-1])    
-        secondNumber = ''.join(M[::-1])
-        if(firstNumber == ''):
-            firstNumber = 'YODA'
-        else:
-            firstNumber = int(firstNumber)
-        if ( secondNumber == ''):
-            secondNumber = 'YODA'
-        else:
-            secondNumber = int(secondNumber)
-        print(firstNumber)
-        print(secondNumber)
+
+        Yoda.printres(self, N)
+        Yoda.printres(self, M)
 
 if __name__ == '__main__':
     Yoda().run()
