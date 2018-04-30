@@ -5,7 +5,6 @@ from io import StringIO
 # https://open.kattis.com/problems/yoda/file/statement/samples.zip
 
 def test_1():
-    # doOneCase()
     doOneCase_withfiles('testdata/yoda.1.in', 'testdata/yoda.1.ans')
 
 def test_2():
