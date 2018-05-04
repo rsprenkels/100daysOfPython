@@ -14,6 +14,6 @@ def test_short(mock_stdout):
         '3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333'
     ]
     with mock.patch('builtins.input', side_effect=user_input):
-        __import__('addNumbers')
+        __import__('addNumbersPlainscript')
         assert mock_stdout.getvalue() == '\n'.join(expected_output) + '\n'
 
