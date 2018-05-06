@@ -22,3 +22,6 @@ sqlalchemy (is a ORM, see https://pythonspot.com/tag/sql)
 investigate REPL
 
 day_008 is template for kattis
+
+# problems
+7 segment driver problem from 'programming pearls'
