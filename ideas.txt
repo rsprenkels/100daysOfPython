@@ -1,0 +1,24 @@
+# general stuff
+virtualenv   		https://pypi.org/project/virtualenv/
+
+# software development
+# <continues delivery>
+https://jenkins.io/doc/tutorials/build-a-python-app-with-pyinstaller/
+
+# web applications
+https://docs.cherrypy.org/en/latest/tutorials.html
+
+# template engines
+wheezy.template
+http://www.makotemplates.org/	
+
+# excel
+http://xlsxwriter.readthedocs.io/
+
+# databases
+sqlite
+sqlalchemy (is a ORM, see https://pythonspot.com/tag/sql)
+
+investigate REPL
+
+day_008 is template for kattis
