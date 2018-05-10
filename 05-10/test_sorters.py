@@ -15,4 +15,3 @@ def test_longer():
 def test_as():
     s = another_sort.AnotherSort()
     assert s.sort([1, 4, 211, 2, 9, 3, 7, 6]) == [1, 2, 3, 4, 6, 7, 9, 211]
-git
