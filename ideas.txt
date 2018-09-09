@@ -5,6 +5,9 @@ virtualenv   		https://pypi.org/project/virtualenv/
 # <continues delivery>
 https://jenkins.io/doc/tutorials/build-a-python-app-with-pyinstaller/
 
+# install python 3.7
+https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/
+
 # web applications
 https://docs.cherrypy.org/en/latest/tutorials.html
 
@@ -25,3 +28,5 @@ day_008 is template for kattis
 
 # problems
 7 segment driver problem from 'programming pearls'
+
+
